@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AcademicForm</title>
+    <style>
+        select{width: 300px;}
+        button{ width: 160px; }
+    </style>
+</head>
+<body>
+    <form ><fieldset><legend>Academic Information</legend>
+        Degree<select name="degree">
+            <option value="mba">&nbsp;Master of Business Administration</option>
+            <option value="bba">Bachelor of Business Administration</option>
+            <option value="mca">Master of Computer Applications</option>
+            <option value="bca">Bachelor of Computer Applications</option>
+        </select><br>
+        Student ID<input type="text" name="id" id="sid"><br>
+        Class Attended<select name="classa" multiple size="3">
+            <option value="geo"> Geography</option>
+            <option value="math">Mathematics</option>
+            <option value="eng">English</option>
+            <option value="hindi">Hindi</option>
+        </select><br>
+    </fieldset>
+    <fieldset><legend>Personal Details</legend>
+        First Name &nbsp;<input type="text" style size="30" class="name"><br>
+        Last Name &nbsp;<input type="text"  style size="30" class="name" ><br>
+        Gender &nbsp;<input type="radio" value="male" name="gender">Male
+        <input type="radio" value="female" name="gender">Female<br>
+        Email: &nbsp;<input type="email" class="email" >
+    </fieldset>
+    <textarea  placeholder="TERMS AND CONDITIONS......."></textarea><br><br>
+    <button>Send Form</button>&nbsp;<button>Clear Form</button>
+
+
+    </form>
+</body>
+</html>
